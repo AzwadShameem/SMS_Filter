@@ -1,2 +1,5 @@
 # SMS_Filter
-Mobile + Machine Learning Project to filter and/or block SMS 
+ML: Machine Learning Updates & Changes will be reflected here.
+
+Updates:
+1/12/23 - docker file created
