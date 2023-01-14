@@ -1,2 +1,2 @@
 # SMS_Filter
-Mobile + Machine Learning Project to filter and/or block SMS 
+Android: Android App is in progress and will provide updates soon
