@@ -1,2 +1,3 @@
 # SMS_Filter
-Mobile + Machine Learning Project to filter and/or block SMS 
+iOS: Apple support is not implemented yet
+TODO: Research workarounds to obtain text messages on iOS
