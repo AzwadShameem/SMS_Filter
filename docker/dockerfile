@@ -1,0 +1,54 @@
+FROM ubuntu:latest
+
+RUN apt-get update
+
+RUN apt-get upgrade
+
+RUN apt-get install sudo
+
+RUN sudo apt-get install -y python3
+
+RUN sudo apt-get install -y python3-pip
+
+RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+
+RUN pip3 install tensorflow
+
+RUN pip3 install jupyter
+
+RUN pip3 install pandas
+
+RUN pip3 install numpy
+
+RUN pip3 install scikit-learn
+
+RUN pip3 install matplotlib
+
+RUN pip3 install nltk
+
+RUN pip3 install spacy
+
+RUN pip3 install wordcloud
+
+RUN pip3 install seaborn
+
+RUN useradd -m  -s /bin/bash ubuntu
+
+RUN usermod -aG sudo ubuntu && echo "ubuntu ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/ubuntu
+
+RUN chmod 0440 /etc/sudoers.d/ubuntu
+
+USER ubuntu:ubuntu
+
+WORKDIR /home/ubuntu
+
+ENTRYPOINT ["jupyter", "notebook", "--ip=*"]
+
+# How To Use Docker File
+# Note: First go into the folder with the dockerfile
+# Note: machine_learning can be replaced with any other team
+# docker build . -t machine_learning
+# docker images 
+# Note: In Docker Images look for machine_learning id
+# docker run -it -p 8888:8888 --gpus all [id]
+# Now you can run from docker application instead of only terminal
