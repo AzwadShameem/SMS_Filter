@@ -2,6 +2,7 @@
 ML: Machine Learning Updates & Changes will be reflected here.    
 
 Updates:   
+Version 1.9 - 1/26/23: Models Performance Comparison & Analysis         
 Version 1.8 - 1/23/23: tensorflow models results cleaned         
 Version 1.7 - 1/22/23: tensorflow hybrid models trained & evaluated       
 Version 1.6 - 1/21/23: tensorflow models trained & evaluated      
