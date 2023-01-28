@@ -1,8 +1,9 @@
 # SMS_Filter  
 ML: Machine Learning Updates & Changes will be reflected here.    
 
-Updates:   
-Version 1.9 - 1/26/23: Models Performance Comparison & Analysis         
+Updates:  
+Version 2.0 - 1/27/23: android on-device model implementation initiated   
+Version 1.9 - 1/26/23: models performance comparison & analysis           
 Version 1.8 - 1/23/23: tensorflow models results cleaned         
 Version 1.7 - 1/22/23: tensorflow hybrid models trained & evaluated       
 Version 1.6 - 1/21/23: tensorflow models trained & evaluated      
