@@ -1,0 +1,30 @@
+FROM tensorflow/tensorflow:latest-gpu-jupyter
+
+RUN pip3 install tensorflow-addons
+
+RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+
+RUN pip3 install pandas
+
+RUN pip3 install numpy
+
+RUN pip3 install scikit-learn
+
+RUN pip3 install matplotlib
+
+RUN pip3 install nltk
+
+RUN pip3 install spacy
+
+RUN pip3 install wordcloud
+
+RUN pip3 install seaborn
+
+# How To Use Docker File
+# Note: Be in the same folder as the dockerfile
+# docker build . -t machine_learning
+# Note: After running dokcer images look for image id
+# docker images 
+# Note: id can be found from previous line
+# docker run -it -p 8888:8888 --gpus all [id]
+# Now you can run from docker application instead of only terminal
