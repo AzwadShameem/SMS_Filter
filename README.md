@@ -1,9 +1,9 @@
 # Spam Filter
 
-### Update Status
-ML - Version 2.0: android on-device implementation improvements
-Android - Version 1.0: first production ready android app
-iOS - N/A: future work + research and feasibility checks not satisified yet
+### Update Status  
+ML - Version 2.0: android on-device implementation improvements  
+Android - Version 1.0: first production ready android app  
+iOS - Version N/A: future work + research and feasibility checks not satisified yet  
 
 ## Introduction
 
