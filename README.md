@@ -1,6 +1,6 @@
 # Spam Filter
 
-# Update Status
+### Update Status
 ML - Version 2.0: android on-device implementation improvements
 Android - Version 1.0: first production ready android app
 iOS - N/A: future work + research and feasibility checks not satisified yet
@@ -83,7 +83,7 @@ Get started running our machine learning experiments!
 
 1. Assuming that everything above works as intended, begin by cloning this repository
 ```
-git clone https://github.com/AzwadShameem/SMS_Filter_App.git
+git clone https://github.com/AzwadShameem/SMS_Filter.git
 ```
 2. Switch to our software engineering branch
 ```
@@ -106,10 +106,10 @@ pip install [...]
 
 Note that we use [Magic Commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html) so that files do have to be ran one by one but if you are interested in following along with the experiments, follow our guide below:
 
-1. Switch to the [Data](https://github.com/AzwadShameem/SMS_Filter_App/tree/machine-learning/Data) directory
+1. Switch to the [Data](https://github.com/AzwadShameem/SMS_Filter/tree/machine-learning/data) directory
     - The original dataset is called `spam.csv`
 2. Open `class_imbalance.ipynb` to generate `undersampled_spam.csv` and `oversampled_spam.csv`
-3. Check out our [Model](https://github.com/AzwadShameem/SMS_Filter_App/tree/machine-learning/Models) directory and see the pretrained models we have provided for you!
+3. Check out our [Model](https://github.com/AzwadShameem/SMS_Filter/tree/machine-learning/models) directory and see the pretrained models we have provided for you!
     - We have included models trained on our Undersampling and Oversampling datasets with 3 different Embedding Sizes (8, 16, and 32)
     - Note that you can train your own models in `smsclassifier.ipynb` under the PyTorch directory for LSTM models with an embedded size of your own choosing
 5. Switch to the PyTorch directory and open `loader.ipynb`
@@ -123,8 +123,9 @@ Note that we use [Magic Commands](https://ipython.readthedocs.io/en/stable/inter
 ## Documentation
 
 ### Code Organization
-- The [Machine Learning](https://github.com/AzwadShameem/SMS_Filter_App/tree/machine-learning) branch of this repository contains all of the machine learning related code
-- The [Application](https://github.com/AzwadShameem/SMS_Filter_App/tree/android) branch of this repository contains all of the software engineering related code
+- The [Machine Learning](https://github.com/AzwadShameem/SMS_Filter/tree/machine-learning) branch of this repository contains all of the machine learning related code
+- The [Android](https://github.com/AzwadShameem/SMS_Filter/tree/android) branch of this repository contains all of the android software engineering related code
+- The [iOS](https://github.com/AzwadShameem/SMS_Filter/tree/iOS) branch of this repository contains all of the iOS software engineering related code
 
 ### Installation
 
@@ -149,7 +150,7 @@ Get Started running our Spam Filter app
 1. Assuming that everything above works as intended, begin by starting up your Android Emulator. 
 2. Clone this repository
 ```
-git clone https://github.com/AzwadShameem/SMS_Filter_App.git
+git clone https://github.com/AzwadShameem/SMS_Filter.git
 ```
 3. Switch to our software engineering branch
 ```
